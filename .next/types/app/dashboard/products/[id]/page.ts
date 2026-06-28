@@ -1,8 +1,8 @@
-// File: D:\e-comm\zari\admin-frontend\src\app\dashboard\shipping\page.tsx
-import * as entry from '../../../../../src/app/dashboard/shipping/page.js'
+// File: D:\e-comm\zari\admin-frontend\src\app\dashboard\products\[id]\page.tsx
+import * as entry from '../../../../../../src/app/dashboard/products/[id]/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
-type TEntry = typeof import('../../../../../src/app/dashboard/shipping/page.js')
+type TEntry = typeof import('../../../../../../src/app/dashboard/products/[id]/page.js')
 
 type SegmentParams<T extends Object = any> = T extends Record<string, any>
   ? { [K in keyof T]: T[K] extends string ? string | string[] | undefined : never }
